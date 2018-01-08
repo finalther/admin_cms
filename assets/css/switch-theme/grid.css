@@ -1,0 +1,47 @@
+/* Grids */
+
+
+@media (min-width: 768px) {
+    .boxed-layout #page-wrapper,
+    .boxed-layout #page-header,
+    .boxed-layout #wrapper, 
+	.boxed-layout .container {
+        max-width: 750px;
+		margin:0 auto
+    }
+
+}
+@media (min-width: 992px) {
+    .boxed-layout #page-wrapper,
+    .boxed-layout #page-header,
+    .boxed-layout #wrapper, 
+    .boxed-layout .container {
+        max-width: 970px;
+    margin:0 auto
+	}
+	
+    
+}
+
+	
+@media (min-width: 1450px) {
+	
+	.container {
+        max-width: 100%;
+		margin:0 auto
+    }
+.content .container{padding:0}
+
+}
+
+    .boxed-layout #page-wrapper,
+    .boxed-layout #page-header,
+	.boxed-layout #wrapper, 
+    .boxed-layout .container {
+        max-width: 1800px;
+		margin:0 auto
+    }
+	
+	 .boxed-layout #page-header .app-search .form-control,  .boxed-layout #page-header .app-search .form-control:focus{width: 490px;}
+   
+	
